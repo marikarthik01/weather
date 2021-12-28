@@ -28,19 +28,6 @@ const Weather = () => {
       setWeather(data);
     };
 
-  // const location = () => {
-  //   window.navigator.geolocation.getCurrentPosition(
-
-  //     (position) => {setLat(position.coord.lat),
-  //       setLon(position.coord.lon)
-  //       console.log(setLat);
-
-  //     }
-
-  //     );
-  // }
-
-
     const geolocation = () => {
       if (weather !== "" && weather.message !== error.message) {
         setLat(weather.coord.lat);
@@ -103,6 +90,7 @@ const Weather = () => {
             aria-describedby="button-addon2"
             onChange={handleCityName}
           ></input>
+          
           <button
             className="btn btn-outline-secondary"
             type="submit"
