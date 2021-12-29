@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Visibility,CloudQueue,Opacity } from '@material-ui/icons';
 import Daily from "./Daily";
 import Hourly from "./Hourly";
-import ".././scss/Forecast.scss";
+import ".././css/Forecast.scss";
 
 import "./weather.css";
 

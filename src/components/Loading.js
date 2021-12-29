@@ -1,5 +1,5 @@
 import React from 'react'
-import '../scss/Loading.scss'
+import '../css/Loading.scss'
 const Loading = () => {
     return (
         <div className='SECTION'>
